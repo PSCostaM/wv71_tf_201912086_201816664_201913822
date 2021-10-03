@@ -6,7 +6,7 @@ Repositorio creado con el fin de desarrollar el Trabajo Parcial y Final del curs
 | * | Integrantes |
 | ------ | ------ |
 | 1 | Diego Enrique Osorio Horna |
-| 2 | Piero Palomino |
+| 2 | Piero Martin Palomino Calderon |
 | 3 | Paulo Sergio Costa Mondragón |
 
 # Planteamiento de Vehicle Routing Problem(VRP)
@@ -29,3 +29,11 @@ Repositorio creado con el fin de desarrollar el Trabajo Parcial y Final del curs
 | 4 | Realizar un Algoritmo por integrante | Paulo - Piero - Diego |
 | 5 | Grabar video | Piero |
 | 6 | Presentacion del Trabajo Parcial | Paulo - Piero - Diego |
+
+# Algortimo por Estudiante
+
+| Algoritmo | Integrante |
+| ------ | ------ |
+| Fuerza Bruta | Diego Enrique Osorio Horna |
+| BFS | Piero Martin Palomino Calderon |
+| Djkistra | Paulo Sergio Costa Mondragón |
