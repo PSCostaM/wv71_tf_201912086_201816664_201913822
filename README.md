@@ -37,3 +37,6 @@ Repositorio creado con el fin de desarrollar el Trabajo Parcial y Final del curs
 | Djkistra | Paulo Sergio Costa Mondragón |
 | Brute Force | Diego Enrique Osorio Horna |
 | Breadth First Search (BFS) | Piero Martin Palomino Calderon |
+
+# Video del resporte
+https://youtu.be/ISeBbDpy1xs
