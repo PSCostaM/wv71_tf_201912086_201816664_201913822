@@ -1,6 +1,8 @@
 # BREADTH FIRST SEARCH ALGORITHM (BFS)
 Usare el algoritmo BFS para estructurar mi codigo, la forma en como lo voy a orientar sera la siguiente:
 Primero el almacen escoje la zona de reparto mas cercana que tenga en ese momento, la cual se marca como visitada, de esta zona escoge a otra zona mas cercana siempre y cuando esta misma este dentro de los limites de su sector, asi ira recorriendo los puntos mas cercanos hasta retornar al almacen.
+# Funcionamiento de BFS
+Es un algoritmo de búsqueda para lo cual recorre los nodos de un grafo, comenzando en la raíz (eligiendo algún nodo como elemento raíz en el caso de un grafo), para luego explorar todos los vecinos de este nodo.
 # Condiciones a tener en cuenta
 - Se debera considerar la cantidad maxima de Km que puede recorrer cada camion
 - Se debera considerar el tiempo que este tardando el camion en hacer los repartos
