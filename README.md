@@ -2,7 +2,7 @@
 Repositorio creado con el fin de desarrollar el Trabajo Parcial y Final del curso Complejidad Algoritmica.
 
 | * | Integrantes |
-| ------ | ------ | ------ |
+| ------ | ------ |
 | 1 | * |
 | 2 | * |
 | 3 | * |
