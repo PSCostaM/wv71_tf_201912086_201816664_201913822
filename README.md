@@ -14,5 +14,8 @@ Repositorio creado con el fin de desarrollar el Trabajo Parcial y Final del curs
 | * | Actividades | Desarrollado por |
 | ------ | ------ | ------ |
 | 1 | Crear el dataset con puntos de entrega y almacenes | Piero - Diego |
-| 2 | Definir los espacios de búsqueda y graficarlo | Paulo |
-| 3 | Definir el costo de vehículos | Paulo | 
+| 2 | Definir los espacios de búsqueda y graficarlo | Paulo - Diego |
+| 3 | Definir el costo de vehículos | Paulo - Piero|
+| 4 | Realizar un Algoritmo por integrante | Paulo - Piero - Diego |
+| 5 | Grabar video | Piero |
+| 6 | Presentacion del Trabajo Parcial | Paulo - Piero - Diego |
