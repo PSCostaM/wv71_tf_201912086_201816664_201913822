@@ -1,6 +1,14 @@
 # wv71_tf_201912086_201816664_u201913822
 Repositorio creado con el fin de desarrollar el Trabajo Parcial y Final del curso Complejidad Algoritmica.
 
+#Integrantes
+
+| * | Integrantes |
+| ------ | ------ |
+| 1 | Diego Enrique Osorio Horna |
+| 2 | Piero Palomino |
+| 3 | Paulo Sergio Costa Mondragón |
+
 # Planteamiento de Vehicle Routing Problem(VRP)
 
  Es un problema de optimización que tiene como objetivo minimizar los costos de transporte asociados a rutas de reparto, Se presentan muchas restricciones para desarrollar este algoritmo los cuales son:
@@ -10,14 +18,6 @@ Repositorio creado con el fin de desarrollar el Trabajo Parcial y Final del curs
 - Los clientes pueden ser atendidos por varios vehículos
 - Algunas variables del problema son aleatorias, como el número de clientes, sus demandas, etc.
 - Las entregas se deben realizar en determinado tiempo definido
-
-#Integrantes
-
-| * | Integrantes |
-| ------ | ------ |
-| 1 | Diego Enrique Osorio Horna |
-| 2 | Piero Palomino |
-| 3 | Paulo Sergio Costa Mondragón |
 
 # Reporte de Actividades 
 
