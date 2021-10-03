@@ -6,3 +6,5 @@ Repositorio creado con el fin de desarrollar el Trabajo Parcial y Final del curs
 | 1 | Diego Enrique Osorio Horna |
 | 2 | Piero Palomino |
 | 3 | Paulo Sergio Costa Mondragón |
+
+# Reporte de Actividades 
