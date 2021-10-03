@@ -3,6 +3,6 @@ Repositorio creado con el fin de desarrollar el Trabajo Parcial y Final del curs
 
 | * | Integrantes |
 | ------ | ------ |
-| 1 | * |
-| 2 | * |
-| 3 | * |
+| 1 | Diego Enrique Osorio Horna |
+| 2 | Piero Palomino |
+| 3 | Paulo Sergio Costa Mondragón |
