@@ -38,5 +38,5 @@ Repositorio creado con el fin de desarrollar el Trabajo Parcial y Final del curs
 | Brute Force | Diego Enrique Osorio Horna |
 | Breadth First Search (BFS) | Piero Martin Palomino Calderon |
 
-# Video del resporte
+# Video del reporte
 https://youtu.be/ISeBbDpy1xs
