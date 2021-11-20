@@ -35,8 +35,8 @@ Repositorio creado con el fin de desarrollar el Trabajo Parcial y Final del curs
 | Algoritmo | Integrante |
 | ------ | ------ |
 | Djkistra | Paulo Sergio Costa Mondragón |
-| Brute Force | Diego Enrique Osorio Horna |
-| Breadth First Search (BFS) | Piero Martin Palomino Calderon |
+| Brute Force | Piero Martin Palomino Calderon |
+| Breadth First Search (BFS) | Diego Enrique Osorio Horna |
 
 # Video del reporte
 https://youtu.be/ISeBbDpy1xs
