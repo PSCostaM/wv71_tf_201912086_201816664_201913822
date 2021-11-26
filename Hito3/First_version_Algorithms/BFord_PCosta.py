@@ -1,8 +1,4 @@
-import graphviz as gv
-import numpy as np
 import pandas as pd
-import heapq as hq
-import time
 import math
 
 whouse_pts = "https://raw.githubusercontent.com/PSCostaM/wv71_tf_201912086_201816664_201913822/main/DataSet/Almacenes.csv"
