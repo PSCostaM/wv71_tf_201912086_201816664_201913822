@@ -51,6 +51,28 @@ https://youtu.be/ISeBbDpy1xs
 # Conceptos a considerar
 
 Para empezar a solucionar el VRP problem con cualquier algoritmo, debemos tratar de agrupar los almacenes con los puntos de delivery más cercanos para saber que puntos de delivery visitar después de recoger paquetes.
-![Uploading image.png…]()
+```
+get_dist = lambda a,b: abs(a[0]-b[0])+abs(a[1]-b[1])
+def group_delivery_whouses(warehouse_points, delivery_points):
+
+  groups = []
+  for i in range(len(warehouse_points)):
+    groups.append([])
+
+  for j in range(len(delivery_points)):
+    d = delivery_points[j]
+    mn = math.inf
+    idmn = 0
+    for i in range(len(warehouse_points)):
+      w = warehouse_points[i]
+      dis = get_dist(d,w)#get Distance from delivery_pts & whouse
+      if(dis < mn):
+        mn = dis
+        idmn = i
+
+    groups[idmn].append(d)
+
+  return groups
+```
 Para eso utilizamos la función group_delivery_whouses()
 
