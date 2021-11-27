@@ -99,3 +99,4 @@ for d in dp:
     c = min(wh, key=lambda x: distance(x, d))
     plot_line(c, d)
 ```
+![image](https://user-images.githubusercontent.com/48858434/143721965-652213ee-1d66-495a-8872-8aeaa1f78b1e.png)
