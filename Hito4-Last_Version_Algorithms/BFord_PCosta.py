@@ -51,7 +51,7 @@ def BellmanFord_modified(group, origin):
     for j in range(n):
       if i!=j:
           if get_dist(group[j],group[i]) < 50: 
-            listadj[i].append((j, get_dist(group[j], group[i]))) # agregamos el destino y su costo
+            listadj[i].append((j, get_dist(group[j], group[i]))) 
       
   for _ in range(n-1):
     for u in range(n):
