@@ -35,7 +35,7 @@ Repositorio creado con el fin de desarrollar el Trabajo Parcial y Final del curs
 | Algoritmo | Integrante |
 | ------ | ------ |
 | Djkistra | Paulo Sergio Costa Mondragón |
-| Brute Force | Piero Martin Palomino Calderon |
+| Kruskal | Piero Martin Palomino Calderon |
 | Naive | Diego Enrique Osorio Horna |
 
 # Video del primer reporte
