@@ -100,3 +100,7 @@ for d in dp:
     plot_line(c, d)
 ```
 ![image](https://user-images.githubusercontent.com/48858434/143721965-652213ee-1d66-495a-8872-8aeaa1f78b1e.png)
+#Link al video de cada integrante explicando su algoritmo
+Piero Martin Palomino Calderon -> https://youtu.be/HIbT0gamiQU
+
+
