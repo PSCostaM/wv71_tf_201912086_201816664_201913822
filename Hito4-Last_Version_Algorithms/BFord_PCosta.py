@@ -38,26 +38,34 @@ def group_delivery_whouses(warehouse_points, delivery_points):
   
   return groups
 groups = group_delivery_whouses(warehouse_points, delivery_points)
-def bellmanFord(G, s):
-  n = len(G)
 
-  #initialize
+def BellmanFord_modified(group, origin):
+  group.insert(0,origin)  
+  n = len(group)
   cost = [float('inf')]*n
-  cost[s]=0
-  path = [-1]*n
+  cost[0]=0
+  previous = [-1]*n
 
-  #relax
+  listadj = [[]for _ in range(n)]  
+  for i in range(n):
+    for j in range(n):
+      if i!=j:
+          if get_dist(group[j],group[i]) < 50: 
+            listadj[i].append((j, get_dist(group[j], group[i]))) # agregamos el destino y su costo
+      
   for _ in range(n-1):
     for u in range(n):
-      for v, w in G[u]:
+      for v, w in listadj[u]:
         if cost[u] + w < cost[v]:
-          cost[v] = cost[u]+w
-          path[v]=u
-  
-  #check negative cygroupse
+          cost[v] = cost[u] + w
+          previous[v] = u
+
   for u in range(n):
-    for v, w in G[u]:
-      if cost[u]+w<cost[v]:
+    for v, w in listadj[u]:
+      if cost[u] + w < cost[v]:
         return None, None
 
-  return path, cost
+  return previous, cost
+final_groups = group_delivery_whouses(warehouse_points, delivery_points)
+for i in range(0,25):
+  print(BellmanFord_modified(final_groups[i], warehouse_points[i]))
