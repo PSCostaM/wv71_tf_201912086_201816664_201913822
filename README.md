@@ -47,3 +47,10 @@ https://youtu.be/ISeBbDpy1xs
 | 1 | Diego Enrique Osorio Horna | Naive Algorithm/Prim - Dijkstra |
 | 2 | Piero Martin Palomino Calderon | Prim | 
 | 3 | Paulo Sergio Costa Mondragón | BellmanFord modified |
+
+# Conceptos a considerar
+
+Para empezar a solucionar el VRP problem con cualquier algoritmo, debemos tratar de agrupar los almacenes con los puntos de delivery más cercanos para saber que puntos de delivery visitar después de recoger paquetes.
+![Uploading image.png…]()
+Para eso utilizamos la función group_delivery_whouses()
+
