@@ -40,3 +40,10 @@ Repositorio creado con el fin de desarrollar el Trabajo Parcial y Final del curs
 
 # Video del primer reporte
 https://youtu.be/ISeBbDpy1xs
+
+# Resolviendo VRP con 3 distintos algoritmos
+| * | Integrantes | Algoritmos usados |
+| ------ | ------ | ------ |
+| 1 | Diego Enrique Osorio Horna |
+| 2 | Piero Martin Palomino Calderon |
+| 3 | Paulo Sergio Costa Mondragón |
