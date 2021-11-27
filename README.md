@@ -74,5 +74,28 @@ def group_delivery_whouses(warehouse_points, delivery_points):
 
   return groups
 ```
-Para eso utilizamos la función group_delivery_whouses()
+Para eso utilizamos la función group_delivery_whouses(). De manera que los almacenes y punto de entrega terminan viéndose así.
+```import matplotlib.pyplot as plt
+import pandas as pd
+plt.rcParams['figure.figsize'] = (10,10)
 
+def plot_points():
+    plt.scatter(x=[w[0] for w in wh], y=[w[1] for w in wh], color='r', s=60)
+    plt.scatter(x=[d[0] for d in dp], y=[d[1] for d in dp], color='g', s=15)
+plot_line = lambda s, d: plt.plot([s[0], d[0]], [s[1], d[1]],'b-.', linewidth=1)
+distance = lambda p1, p2: abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])
+
+wh = pd.read_csv('../DataSet/Almacenes.csv').values.tolist()
+dp = pd.read_csv('../DataSet/PuntosEntrega.csv').values.tolist()
+
+pdp = 0.2
+pdw = 0.5
+dps = int(len(dp)*pdp)
+whs = int(len(wh)*pdw)
+dp = dp[:dps]
+wh = wh[:whs]
+plot_points()
+for d in dp:
+    c = min(wh, key=lambda x: distance(x, d))
+    plot_line(c, d)
+```
