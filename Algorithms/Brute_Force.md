@@ -1,5 +1,5 @@
-# Brute Force
-El algoritmo que voy a usar para la resolucion del caso dera el de Brute Force (Fuerza Bruta), el cual consiste en que recorre todos los caminos posibles, hasta encontrar un escenario que es igual que la solucion planteada
+# Kruskal
+El algoritmo que voy a usar para la resolucion del caso dera el de Kruskal, el cual consiste en que recorre los nodos mas cercanos considerando las limitaciones del problema y agarrar el nodo que mas factible sea y asi ir recorriendo todo el camino para encontrar la ruta mas optima.
 
 # Consideraciones
 - Considerar los limites de cada zona 
