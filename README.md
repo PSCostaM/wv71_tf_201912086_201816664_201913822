@@ -44,6 +44,6 @@ https://youtu.be/ISeBbDpy1xs
 # Resolviendo VRP con 3 distintos algoritmos
 | * | Integrantes | Algoritmos usados |
 | ------ | ------ | ------ |
-| 1 | Diego Enrique Osorio Horna | Naive
-| 2 | Piero Martin Palomino Calderon |
-| 3 | Paulo Sergio Costa Mondragón | 
+| 1 | Diego Enrique Osorio Horna | Naive Algorithm/Prim - Dijkstra |
+| 2 | Piero Martin Palomino Calderon | Prim | 
+| 3 | Paulo Sergio Costa Mondragón | BellmanFord |
