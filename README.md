@@ -36,7 +36,7 @@ Repositorio creado con el fin de desarrollar el Trabajo Parcial y Final del curs
 | ------ | ------ |
 | Djkistra | Paulo Sergio Costa Mondragón |
 | Brute Force | Piero Martin Palomino Calderon |
-| Breadth First Search (BFS) | Diego Enrique Osorio Horna |
+| Naive | Diego Enrique Osorio Horna |
 
 # Video del primer reporte
 https://youtu.be/ISeBbDpy1xs
