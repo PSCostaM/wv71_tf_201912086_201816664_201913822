@@ -46,4 +46,4 @@ https://youtu.be/ISeBbDpy1xs
 | ------ | ------ | ------ |
 | 1 | Diego Enrique Osorio Horna | Naive Algorithm/Prim - Dijkstra |
 | 2 | Piero Martin Palomino Calderon | Prim | 
-| 3 | Paulo Sergio Costa Mondragón | BellmanFord |
+| 3 | Paulo Sergio Costa Mondragón | BellmanFord modified |
